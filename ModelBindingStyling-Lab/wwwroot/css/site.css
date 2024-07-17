@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Custom CSS for additional styling */
+.custom-table th, .custom-table td {
+    text-align: center; /* Center align table headers and cells */
+}
+
+.custom-table th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Light grey background for odd rows */
+}
+
+.profile-header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profile-list dt {
+    font-weight: bold;
+}
+
+.profile-list dd {
+    margin-bottom: 10px; /* Spacing between items */
+}
+
+.skill-list li {
+    list-style-type: none; /* Remove default list style */
+    padding: 5px;
+    background-color: #e9ecef; /* Light grey background */
+    margin-bottom: 5px; /* Spacing between skills */
+    border-radius: 5px; /* Rounded corners for skill items */
+    width: 50px;
+}
